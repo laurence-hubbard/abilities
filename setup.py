@@ -4,7 +4,7 @@ with open('requirements.txt') as rf:
   setup(
     name='abilities',
     version='1.0.0',
-    packages=['tests'],
+    packages=['tests', ['.']],
     test_suite='abilities.tests',
     url='https://github.com/laurence-hubbard/abilities.git',
     author='Laurence Hubbard',
