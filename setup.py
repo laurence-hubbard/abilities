@@ -9,8 +9,7 @@ with open('requirements.txt') as rf:
     url='https://github.com/laurence-hubbard/abilities.git',
     author='Laurence Hubbard',
     author_email='hubbard.lrg@gmail.com',
-    description='What cool things can I do with this python object?'#,
-#    install_requires=rf.readlines()
+    description='What cool things can I do with this python object?'
   )
 
 
