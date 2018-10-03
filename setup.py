@@ -1,7 +1,6 @@
 from setuptools import setup
 
-with open('requirements.txt') as rf:
-  setup(
+setup(
     name='abilities',
     version='1.0.0',
     packages=['tests', '.'],
@@ -10,6 +9,4 @@ with open('requirements.txt') as rf:
     author='Laurence Hubbard',
     author_email='hubbard.lrg@gmail.com',
     description='What cool things can I do with this python object?'
-  )
-
-
+)
